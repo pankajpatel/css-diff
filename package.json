@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/pankajpatel/css-diff#readme",
   "dependencies": {
+    "css": "^2.2.1",
     "css-parse": "^2.0.0"
   }
 }
