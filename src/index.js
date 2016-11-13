@@ -14,6 +14,10 @@ fs.readFile('test/a.css', 'utf8', function (err, data) {
 		}
 		var a = css.parse(data);
 		var b = css.parse(d);
-		console.log(JSON.stringify( a ), JSON.stringify( b ) )
+		var rules = a.stylesheet.rules.filter(function(item){
+			return item.type == 'rule';
+		})
+		console.log(a.stylesheet.rules[2], b.stylesheet.rules[2])
+		console.log(rules)
 	});
 });

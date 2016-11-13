@@ -4,7 +4,7 @@
   "description": "Diff between CSS Files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/pankajpatel/css-diff#readme",
   "dependencies": {
     "css": "^2.2.1",
-    "css-parse": "^2.0.0"
+    "css-parse": "^2.0.0",
+    "postcss-js": "^0.1.3"
   }
 }
